@@ -1,0 +1,25 @@
+{
+  "name": "com.lele.swift",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "com.lele.swift",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanueleparini"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Emanuele Parini",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}

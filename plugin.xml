@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.lele.swift" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>Lele Swift</name>
+	<js-module name="LeLeSwift" src="www/LeLeSwift.js">
+		<clobbers target="LeLeSwift" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="LeLeSwift">
+				<param name="ios-package" value="LeLeSwift" />
+			</feature>
+		</config-file>
+		<source-file src="src/ios/LeLeSwift.swift" />
+	</platform>
+</plugin>
